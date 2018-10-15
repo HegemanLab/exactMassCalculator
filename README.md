@@ -1,6 +1,6 @@
 # exactMassCalculator
 
-An exact mass calculator for molecular formulas which uses an elements most-abundant isotope for the molecules isotopic composition.
+An exact mass calculator for molecular formulas which uses an element's most-abundant isotope for the molecules isotopic composition.
 
 ## Implementation
 
@@ -10,8 +10,8 @@ Python Decimal objects are used to track and round significant figures properly.
 
 ### Caution
 
-exactFormulaWeightCalculator expects properly named, case-sensitive, elements.
-  - e.g., Copper should be labeled as `Cu`. `CU` will be calculated as a carbon (`C`) and some quantity of uranium (`U`).
+exactFormulaWeightCalculator expects to read formulas with properly named, case-sensitive, element symbols.
+  - e.g., Copper should be specified with `Cu`. `CU` will be read as carbon and uranium.
 
 ## Useage
 
